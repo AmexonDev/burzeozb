@@ -29,4 +29,5 @@ ul li a:hover:not(.active) {
 
 ul li a.active {
   background-color: #3841a9;
+  font-weight: bold;
 }
