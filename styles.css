@@ -2,12 +2,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 h2, p {
   margin: 10px;
 }
 
+/* MENU */
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,4 +33,26 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #3841a9;
   font-weight: bold;
+}
+
+/* 🌙 TRYB NOCNY */
+[data-theme="dark"] body {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+[data-theme="dark"] ul {
+  background-color: #1e1e1e;
+}
+
+[data-theme="dark"] ul li a {
+  color: #eaeaea;
+}
+
+[data-theme="dark"] ul li a:hover:not(.active) {
+  background-color: #333333;
+}
+
+[data-theme="dark"] ul li a.active {
+  background-color: #5a66d6;
 }
