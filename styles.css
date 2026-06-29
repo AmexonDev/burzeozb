@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #5c5c5c;
+  background-color: #99a0a5;
   display: flex;
 }
 
@@ -23,9 +24,9 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: #383838;
+  background-color: #7b8089;
 }
 
 ul li a.active {
-  background-color: #1a227a;
+  background-color: #3841a9;
 }
